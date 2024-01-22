@@ -119,4 +119,4 @@ admin will be more careful when entering data, you know that the description tit
 All users will make a correct use of the application.
 
 ### Employee Database MySql:
-I have exported the database information in [mysqlShift]([https://github.com/Andrea0o0/Garcia-Gonzalez-Manchon-Andrea_pruebatec1/tree/main/src/mysqlEmployee](https://github.com/Andrea0o0/Andrea0o0-Garcia-Gonzalez-Manchon-Andrea_pruebatec2/tree/main/mysql)https://github.com/Andrea0o0/Andrea0o0-Garcia-Gonzalez-Manchon-Andrea_pruebatec2/tree/main/mysql) inside the folder.
+I have exported the database information in [mysqlShift](https://github.com/Andrea0o0/Andrea0o0-Garcia-Gonzalez-Manchon-Andrea_pruebatec2/tree/main/mysql) inside the folder.
