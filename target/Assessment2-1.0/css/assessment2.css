@@ -1,0 +1,150 @@
+/*Custom CSS Assessment2*/
+
+/* FORM CSS */
+.form-container {
+    width: 80%; 
+    margin: 0 auto;
+}
+
+.center, input, form.user .form-control-user  {
+    text-align: center;
+}
+
+.form-group {
+    margin: 10px 0; 
+}
+
+.form-group input {
+    width: calc(100% - 20px); 
+    margin: 5px 0; 
+    text-align: center;
+}
+
+/*ERROR MESSAGE FORM*/
+.error-message {
+    text-align: center;
+    font-size: 0.75rem;
+    color: red;
+    display: none;
+}
+
+.error-message-login {
+    text-align: center;
+    font-size: 0.75rem;
+    color: red;
+}
+
+/*TOGGLE ICON INPUT DISPLAY*/
+.password-css, .password-css div:last-child, .actions-btns {
+    display: flex;
+}
+
+.password-css div:first-child{
+    width: 100%;
+}
+
+.password-css div:last-child{
+   align-items: center;
+}
+
+
+/* BUTTON RED - DELETE*/ 
+.delete-btn, .delete-btn:hover {
+    color: white;
+}
+
+.delete-btn {
+    background-color: #EB7B7B; 
+}
+
+.delete-btn:hover {
+    background-color: #EB5353; 
+}
+
+
+.actions-btns {
+    width: 100%;
+    align-items: center;
+}
+
+.actions-btns form {
+    width: 30%;
+    margin: 0% 0.5%;
+}
+
+
+/* TEXT AREA CSS (DESCRIPTION, REQUIREMENTS - PROCEDURE)*/
+.custom-textarea {
+    background: none;
+    border: none; 
+    border-radius: 5px; 
+    resize: none;
+    overflow: auto;
+    height: 200px; 
+    color: gray;
+    width: 100%; 
+    padding: 8px; 
+    font-size: 14px; 
+    box-sizing: border-box; 
+}
+
+.custom-textarea:focus {
+    outline: none; 
+}
+
+
+.background-image {
+    background-image: url('../images/background.png'); /* Replace 'your-image.jpg' with the actual path or URL of your image */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50%;
+      border: 1px;
+      border-color: black;
+}
+
+/*SHIFT STATUS*/
+.attended-btn, .attended-btn:hover  {
+     background-color: #0FBA12; 
+     color: white;
+}
+
+.waiting-btn, .waiting-btn:hover {
+     background-color: #F09B59; 
+     color: white;
+}
+
+
+/*FORM DISPLAY NONE*/
+.hidden {
+    display: none !important;
+}
+
+.checkbox-form, .checkbox-form div {
+    display: flex;
+}
+
+.checkbox-form {
+    justify-content: space-around;
+}
+
+
+.checkbox-form div > * {
+   padding: 6% 5% 0% 5%;
+   margin: 0% 6%;
+}
+
+.pb-3, .py-3 {
+    padding-bottom: 0rem!important;
+}
+
+.pt-3, .py-3 {
+    padding-top: 1.3rem!important;
+}
+
+.show {
+    display: block;
+}
